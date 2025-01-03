@@ -1,0 +1,102 @@
+//@import 'scss/mixins';
+//@import 'scss/constants/constants';
+//
+//.context-menu-item-container {
+//  padding: 0.4rem 1rem;
+//  text-align: start;
+//  display: block
+//}
+//
+//::ng-deep .ngx-contextmenu {
+//  .dropdown-menu > li > a {
+//    padding: 0 20px;
+//  }
+//
+//  .dropdown-menu .divider:last-child {
+//    display: none;
+//  }
+//
+//  .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+//    color: inherit;
+//    opacity: 0.5;
+//  }
+//
+//  .dropdown-menu .divider {
+//    background-color: $ngx-context-menu-divider;
+//  }
+//
+//  min-width: 200px;
+//  max-width: fit-content;
+//}
+//
+//.pwc-context-menu {
+//  &.process-stop-icon {
+//    @include context-menu-icon($pwc-icon-process-client-stop);
+//  }
+//
+//  &.process-interrupt-icon {
+//    @include context-menu-icon($pwc-icon-process-client-interrupt);
+//  }
+//
+//  &.process-restart-icon {
+//    @include context-menu-icon($pwc-icon-process-client-restart);
+//  }
+//
+//  &.process-delete-icon {
+//    @include context-menu-icon($pwc-icon-process-client-delete);
+//  }
+//
+//  &.process-pause-icon {
+//    @include context-menu-icon($pwc-icon-process-client-pause);
+//  }
+//
+//  &.process-resume-icon {
+//    @include context-menu-icon($pwc-icon-process-client-resume);
+//  }
+//
+//  &.process-finish-icon {
+//    @include context-menu-icon($pwc-icon-process-client-finish);
+//  }
+//
+//  &.process-add-icon {
+//    @include context-menu-icon($pwc-icon-add);
+//  }
+//
+//  &.process-copy-icon {
+//    @include context-menu-icon($pwc-icon-copy);
+//  }
+//
+//  &.process-info-icon {
+//    @include context-menu-icon($pwc-info-icon);
+//  }
+//
+//  &.process-edit-icon {
+//    @include context-menu-icon($pwc-icon-edit);
+//  }
+//
+//  &.up-icon {
+//    @include context-menu-icon($pwc-icon-arrow-up);
+//  }
+//
+//  &.down-icon {
+//    @include context-menu-icon($pwc-icon-arrow-down);
+//  }
+//
+//  &.upload-icon {
+//    @include context-menu-icon($pwc-icon-upload);
+//  }
+//
+//  &.export-icon {
+//    @include context-menu-icon($pwc-icon-export);
+//  }
+//
+//  &.accept-icon {
+//    @include context-menu-icon($pwc-accept-icon);
+//  }
+//
+//  &.eye-icon {
+//    @include context-menu-icon($pwc-eye-icon);
+//  }
+//
+//  @include ellipsis(inline-block);
+////}

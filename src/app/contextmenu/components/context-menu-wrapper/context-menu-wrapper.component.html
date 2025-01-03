@@ -1,0 +1,14 @@
+<context-menu #contextMenuComponent>
+    <ng-template
+        *ngFor="let action of contextMenuActions"
+        contextMenuItem
+        let-value
+        [visible]="action.visible"
+        [disabled]="action.disabled"
+        [divider]="action.divider"
+        (execute)="action.click($event.value)">
+      <div class="context-menu-item-container">
+        {{ action.html(value) }}
+      </div>
+    </ng-template>
+</context-menu>
