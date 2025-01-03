@@ -5,7 +5,6 @@ import {ContextMenuAction} from "../../models/context-menu-action";
 @Component({
   selector: 'context-menu-wrapper',
   templateUrl: './context-menu-wrapper.component.html',
-  styleUrls: ['./context-menu-wrapper.component.scss'],
 })
 export class ContextMenuWrapperComponent {
 
