@@ -18,7 +18,7 @@ export class ContextMenuWrapperComponent {
   }
 
   show(value: any, event: MouseEvent) {
-
+    this.contextMenuService.closeAll();
     this.contextMenuService.show(this.contextMenuComponent,  {
       x: event.x,
       y: event.y,

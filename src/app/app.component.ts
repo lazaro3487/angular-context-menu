@@ -23,7 +23,7 @@ export class AppComponent {
   }]
 
   readonly contextMenuActions: ContextMenuAction<Person>[] = [{
-    html: (item) => 'Option 1',
+    html: (item) => item.name,
     visible: (item) => {
       console.log("Visible", item);
       return true;
